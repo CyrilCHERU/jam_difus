@@ -13,3 +13,12 @@ Création de la connection BDD
 Création de la class Friend, moule de l'Objet Friend
 Création du manager pour la gestion de l'insertion de l'objet Friend et la récupération de la liste
 Réalisation du script js pour les actions
+
+### Utilisation
+
+faire un git clone du repo
+composer install
+composer update
+php -S localhost:8000 -t public
+
+Le repo contient un sql de la base de données à importer.
