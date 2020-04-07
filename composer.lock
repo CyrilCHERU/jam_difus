@@ -1,0 +1,143 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "da82eb8ac2e347541e1516b08a2ea4f7",
+    "packages": [
+        {
+            "name": "somesh/php-query",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slaith/phpQuery.git",
+                "reference": "91519876bb56ddc453a05be05d61c1a9489864c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slaith/phpQuery/zipball/91519876bb56ddc453a05be05d61c1a9489864c8",
+                "reference": "91519876bb56ddc453a05be05d61c1a9489864c8",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "phpQuery/phpQuery.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "somesh",
+                    "email": "mail@somesh.io"
+                }
+            ],
+            "description": "A composer wrapper for the phpQuery package",
+            "time": "2018-04-19T11:48:21+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "fzaninotto/faker",
+            "version": "v1.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "fc10d778e4b84d5bd315dad194661e091d307c6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/fc10d778e4b84d5bd315dad194661e091d307c6f",
+                "reference": "fc10d778e4b84d5bd315dad194661e091d307c6f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "phpunit/phpunit": "^4.8.35 || ^5.7",
+                "squizlabs/php_codesniffer": "^2.9.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "time": "2019-12-12T13:22:17+00:00"
+        },
+        {
+            "name": "metrakit/faker-eddy-malou",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Metrakit/faker-eddy-malou.git",
+                "reference": "ed4876182c3beceb64cedc9da052b48e59ad3d42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Metrakit/faker-eddy-malou/zipball/ed4876182c3beceb64cedc9da052b48e59ad3d42",
+                "reference": "ed4876182c3beceb64cedc9da052b48e59ad3d42",
+                "shasum": ""
+            },
+            "require": {
+                "fzaninotto/faker": "~1",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Metrakit\\EddyMalou\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordane JOUFFROY",
+                    "email": "contact@jordane.net"
+                }
+            ],
+            "description": "Use Eddy Malou sentences for your dummy texts",
+            "homepage": "https://github.com/Metrakit/faker-eddy-malou",
+            "time": "2016-04-21T18:56:40+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
