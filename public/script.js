@@ -77,9 +77,7 @@ $(document).ready(function () {
                             <button type="button" class="btn btn-warning" data-dismiss="modal">
                                 <i class="fas fa-times"></i>
                             </button>
-                            <button id="confirm_delete" type="button" class="btn btn-danger">
-                                <i class="fas fa-trash"></i>
-                            </button>
+                            
                             </div>
                         </div>
                     </div>
@@ -105,7 +103,7 @@ $(document).ready(function () {
                             <button type="button" class="btn btn-warning" data-dismiss="modal">
                                 <i class="fas fa-times"></i>
                             </button>
-                            <button id="final_delete" data-id=${data[i].id} type="button" class="btn btn-danger">
+                            <button id="final_delete" data-id=${data[i].id} type="button" class="btn btn-danger" data-dismiss="modal">
                                 <i class="fas fa-trash"></i>
                             </button>
                             </div>
